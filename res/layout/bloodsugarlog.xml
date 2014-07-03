@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/scrollView"
+        android:measureAllChildren="false">
+    <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="46dp"
+                android:text="@string/log"
+                android:id="@+id/textViewHeader" android:textColor="#0bff0d" android:textStyle="normal"
+                android:textSize="30dp" android:typeface="serif"/>
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <TextView
+                    android:layout_width="109dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/date"
+                    android:id="@+id/textViewDate" android:textColor="#fdff1a" android:textSize="20dp"
+                    android:textStyle="normal"/>
+            <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="date"
+                    android:ems="10"
+                    android:id="@+id/editTextDate" android:onClick="dateOnClick" android:layout_column="3"/>
+        </TableRow>
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/time"
+                    android:id="@+id/textViewTime" android:textColor="#fbff20" android:textSize="20dp"
+                    android:textStyle="normal"/>
+            <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="time"
+                    android:ems="10"
+                    android:id="@+id/editTextTime" android:onClick="timeOnClick" android:layout_column="3"/>
+        </TableRow>
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bloodsugar"
+                    android:id="@+id/textViewLog" android:textColor="#f6ff22" android:textSize="20dp"
+                    android:textStyle="normal"/>
+            <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editTextLog" android:focusableInTouchMode="true"
+                    android:numeric="integer" android:layout_column="3"/>
+        </TableRow>
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/before"
+                    android:id="@+id/checkBoxBeforeMeal" android:textColor="#f3ff19" android:textSize="20dp"/>
+            <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/after"
+                    android:id="@+id/checkBoxAfterMeal" android:textColor="#f4ff21" android:textSize="20dp"
+                    android:layout_column="3"/>
+        </TableRow>
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/notes"
+                    android:id="@id/textViewNotes" android:textColor="#4cff29" android:textSize="20dp"/>
+        </TableRow>
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+        </TableRow>
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@id/editTextNotes" android:layout_column="4"/>
+        </TableRow>
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/back"
+                    android:id="@+id/buttonBack" android:textColor="#20ff18" android:textStyle="bold"
+                    android:onClick="goToCalc"/>
+            <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/save"
+                    android:id="@+id/buttonSave" android:textColor="#2dff19" android:textStyle="bold"
+                    android:onClick="saveLogOnClick" android:layout_column="3"/>
+        </TableRow>
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/view"
+                    android:id="@+id/buttonChart" android:textColor="#f8ff1f" android:layout_span="5"
+                    android:onClick="goToChart"/>
+        </TableRow>
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/achart"
+                    android:id="@+id/buttonAchart" android:onClick="goToAChart"
+                    android:textColor="#fbff19"/>
+        </TableRow>
+    </TableLayout>
+</ScrollView>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/scrollView"
+        android:measureAllChildren="false">
+    <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="46dp"
+                android:text="Blood Sugar Log"
+                android:id="@+id/textViewHeader" android:textColor="#0bff0d" android:textStyle="normal"
+                android:textSize="30dp" android:typeface="serif"/>
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <TextView
+                    android:layout_width="109dp"
+                    android:layout_height="wrap_content"
+                    android:text="Date:"
+                    android:id="@+id/textViewDate" android:textColor="#fdff1a" android:textSize="20dp"
+                    android:textStyle="normal"/>
+            <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="date"
+                    android:ems="10"
+                    android:id="@+id/editTextDate"/>
+        </TableRow>
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Time"
+                    android:id="@+id/textViewTime" android:textColor="#fbff20" android:textSize="20dp"
+                    android:textStyle="normal"/>
+            <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="time"
+                    android:ems="10"
+                    android:id="@+id/editTextTime"/>
+        </TableRow>
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bloodsugar:"
+                    android:id="@+id/textViewdLog" android:textColor="#f6ff22" android:textSize="20dp"
+                    android:textStyle="normal"/>
+            <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editTextLog" android:focusableInTouchMode="true"
+                    android:numeric="integer"/>
+        </TableRow>
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Before Meal?"
+                    android:id="@+id/checkBoxBeforeMeal" android:textColor="#f2ff22" android:textStyle="normal"
+                    android:textSize="20dp"/>
+        </TableRow>
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="After Meal?"
+                    android:id="@+id/checkBox2" android:textStyle="normal" android:textSize="20dp"
+                    android:textColor="#f2ff16"/>
+        </TableRow>
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Back"
+                    android:id="@+id/buttonBack" android:textColor="#20ff18" android:textStyle="bold"
+                    android:onClick="goToCalc"/>
+            <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Save!"
+                    android:id="@+id/button" android:textColor="#2dff19" android:textStyle="bold"/>
+        </TableRow>
+    </TableLayout>
+</ScrollView>

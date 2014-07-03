@@ -1,0 +1,25 @@
+Using your existing application, add an additional activity with appropriate menus
+    that will show a Google Map with the closest Hospital and Urgent Care locations to
+    the user.  Make sure these locations are marked with pins so the user can find
+    directions easily.
+
+Use a tutorial such as this to help you.
+This assignment will not be lectured so it is an example of figuring it out by yourself.
+
+http://wptrafficanalyzer.in/blog/showing-nearby-places-and-place-details-using-google-places-api-and-google-maps-android-api-v2/
+
+Test your application on a real Android device.
+
+Upload the entire IntelliJ application.
+
+
+Additional Activity to existing app with menu item: 10 pts
+
+Show Google map with user's location: 25 pts
+
+Use the Places API to show and mark each closest hospital and urgent
+    care locations near user: 40 pts
+
+Mark each location with a pin: 25 pts
+
+Total Points: 100

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/goToCalc"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_home"
+        android:title="Calculator" />
+    <item
+            android:id="@+id/goToLog"
+            android:orderInCategory="100"
+            android:showAsAction="always"
+            android:icon="@drawable/ic_log"
+            android:title="Log" />
+    <item
+            android:id="@+id/goToAlarm"
+            android:orderInCategory="100"
+            android:showAsAction="always"
+            android:icon="@drawable/ic_alarm"
+            android:title="Alarm" />
+    <item
+        android:id="@+id/goToPrefs"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/ic_preferences"
+        android:title="Settings" />
+    <item
+            android:id="@+id/goToMap"
+            android:orderInCategory="100"
+            android:showAsAction="always"
+            android:icon="@drawable/ic_map"
+            android:title="Map" />
+   <!--<item-->
+            <!--android:id="@+id/goToAbout"-->
+            <!--android:orderInCategory="100"-->
+            <!--android:showAsAction="ifRoom"-->
+            <!--android:icon="@drawable/ic_krys"-->
+            <!--android:title="About" />-->
+    <item
+            android:id="@+id/goToHospital"
+            android:orderInCategory="100"
+            android:showAsAction="always"
+            android:icon="@drawable/ic_hospital"
+            android:title="Hospital" />
+    <item
+            android:id="@+id/goToChart"
+            android:orderInCategory="100"
+            android:showAsAction="ifRoom"
+            android:icon="@drawable/ic_chart"
+            android:title="Chart" />
+</menu>

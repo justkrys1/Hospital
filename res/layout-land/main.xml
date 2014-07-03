@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="match_parent"
+              android:weightSum="1" android:orientation="vertical">
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Blood Sugar Calculator"
+            android:id="@+id/textView" android:textColor="#1cff1e"
+            android:textStyle="normal" android:typeface="serif" android:layout_gravity="center_horizontal"
+            android:textSize="25dp" android:shadowColor="#f1ff44"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="I will be using my:"
+            android:id="@+id/textView2" android:textColor="#f0ff1d"
+            android:textSize="30dp"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Blood Glucose"
+            android:id="@+id/textView4" android:textColor="#5eff19" android:textSize="20dp"
+            />
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/glucoseInput" android:numeric="decimal" android:text="0.0"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A1C Score"
+            android:id="@+id/textView5" android:textSize="20dp" android:textColor="#47ff29"
+            />
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/a1cInput" android:numeric="decimal" android:selectAllOnFocus="true" android:text="0.0"
+            />
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/message" android:textColor="#ff0915" android:textSize="20dp" android:layout_weight="1"/>
+    <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="36dp">
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Select Formula:"
+                android:id="@+id/textView5" android:layout_weight="0.12" android:textColor="#2fff13"
+                android:textSize="30dp" android:layout_row="2" android:layout_column="9" android:typeface="monospace"/>
+    </GridLayout>
+    <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/radioFormula">
+        <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DCCT"
+                android:id="@+id/btnDCCT" android:textSize="20dp" android:checked="true" android:onClick="radioCheck"/>
+        <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ADAG"
+                android:id="@+id/btnADAG" android:textSize="20dp" android:longClickable="true"
+                android:onClick="radioCheck"/>
+    </RadioGroup>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calculate"
+            android:id="@+id/buttonCalc" android:layout_gravity="center_horizontal" android:textColor="#26ff28"
+            android:textStyle="normal" android:typeface="serif" android:onClick="calculateBMI"
+            />
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your blood sugar is:"
+            android:id="@+id/textView3" android:textColor="#fcff30"
+            android:textSize="20dp"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bloodsugar"/>
+</LinearLayout>
+

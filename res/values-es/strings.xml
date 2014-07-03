@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Spanish -->
+<resources>
+    <string name="app_name">BMI</string>
+    <string name="error">IMC</string>
+    <string name="parse">No se puede analizar</string>
+    <string name="noparse">No se puede analizar</string>
+    <string name="chart">Tabla</string>
+    <string name="chart2">Tabla</string>
+    <string name="chart3">Tabla</string>
+    <string name="Achart">A Tabla</string>
+    <string name="Linechart">gráfico de líneas</string>
+    <string name="label">me va a utilizar mi:</string>
+    <string name="Name">Calculadora de azúcar en la sangre</string>
+    <string name="glucose">Glucosa en la sangre</string>
+    <string name="a1c">Puntuación a1c</string>
+    <string name="select">Seleccione fórmula:</string>
+    <string name="dcct">DCCT</string>
+    <string name="adag">ADAG</string>
+    <string name="calculate">Calcular</string>
+    <string name="label2">Su nivel de azúcar en la sangre es:</string>
+    <string name="go">Vaya a iniciar</string>
+    <string name="log">Registro de azúcar en la sangre</string>
+    <string name="date">Fecha:</string>
+    <string name="time">Tiempo:</string>
+    <string name="bloodsugar">Glicemia:</string>
+    <string name="before">Antes de la comida?</string>
+    <string name="after">Después de la comida?</string>
+    <string name="notes">Notas:</string>
+    <string name="back">Espalda</string>
+    <string name="save">Con el balón!</string>
+    <string name="view">Gráfico de azúcar Vista sangre</string>
+    <string name="achart">Un gráfico</string>
+    <string name="record">Registro salvado!</string>
+</resources>

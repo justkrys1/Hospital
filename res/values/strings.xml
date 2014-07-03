@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- English -->
+<resources>
+    <string name="error">BMI</string>
+    <string name="parse">Cannot parse</string>
+    <string name="noparse">Can\'t parse</string>
+    <string name="chart">Chart</string>
+    <string name="chart2">Chart</string>
+    <string name="chart3">Chart</string>
+    <string name="chart4">Chart</string>
+    <string name="Achart">A Chart</string>
+    <string name="Linechart">Line Chart</string>
+    <string name="label">I will be using my:</string>
+    <string name="Name">Blood Sugar Calculator</string>
+    <string name="glucose">Blood Glucose</string>
+    <string name="a1c">A1C Score</string>
+    <string name="select">Select Formula:</string>
+    <string name="dcct">DCCT</string>
+    <string name="adag">ADAG</string>
+    <string name="calculate">Calculate</string>
+    <string name="label2">Your blood sugar is:</string>
+    <string name="go">Go to Log</string>
+    <string name="log">Blood Sugar Log</string>
+    <string name="date">Date:</string>
+    <string name="time">Time</string>
+    <string name="bloodsugar">Bloodsugar:</string>
+    <string name="before">Before Meal?</string>
+    <string name="after">After Meal?</string>
+    <string name="notes">Notes:</string>
+    <string name="back">Back</string>
+    <string name="save">Save!</string>
+    <string name="view">View Bloodsugar Chart</string>
+    <string name="achart">Achart</string>
+    <string name="record">Record saved!</string>
+    <string name="app_name">Mobile III</string>
+    <string name="support">phpproduction.justkrys1.com/contactus.php</string>
+    <string name="company">mobiledev.justkrys1.com</string>
+    <string name="team">codespork.com</string>
+    <string-array name="buildings">
+        <item>CIS Classes</item>
+        <item>Medical Clinic</item>
+        <item>Financial Aid</item>
+        <item>Cashier</item>
+    </string-array>
+    <string name="str_btn_find">Find</string>
+    <string-array name="place_type">
+        <item>hospital</item>
+        <item>urgent_care</item>
+    </string-array>
+
+    <string-array name="place_type_name">
+        <item>Sacred Heart</item>
+        <item>Deaconess</item>
+        <item>Holy Family</item>
+
+        <item>Urgent Care Spokane</item>
+        <item>Providence Urgent Care</item>
+        <item>Rockwood Urgent Care</item>
+    </string-array>
+</resources>

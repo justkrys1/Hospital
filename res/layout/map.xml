@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:background="#a5acb5">
+        <com.qozix.tileview.TileView
+                android:layout_width="match_parent"
+                android:layout_height="1013dp"
+                android:id="@+id/tileView1"
+                android:layout_alignParentStart="true" android:background="#a5acb5"/>
+    </RelativeLayout>
+</LinearLayout>
+
+
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+
+<!--<RelativeLayout-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">-->
+    <!--<WebView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:id="@+id/webViewMain"-->
+            <!--android:layout_alignParentStart="true" android:layout_alignParentTop="true"/>-->
+<!--</RelativeLayout>-->
